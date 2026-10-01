@@ -1,0 +1,1 @@
+# CRUFL_OllamaTranslator

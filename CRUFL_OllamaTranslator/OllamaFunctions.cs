@@ -23,7 +23,7 @@ namespace CRUFL_OllamaTranslator
     [ComVisible(true)]
     public class OllamaFunctions : IOllamaFunctions
     {
-        private const string API_URL = "<IP_DA_API>:PORTA/api/translate";
+        private const string API_URL = "http://192.168.1.118:5041/api/translate";
 
         public string Translate(string text, string targetLanguage)
         {
